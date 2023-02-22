@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+--section: rgb(164, 165, 165);
+--body: rgb(124, 124, 124);
+--ff: 'Roboto mono', sans-serif, monospace;
+}
+
+/*********Body*********/
+body {
+background: var(--body);
+font-family: var(--ff);
+}
+
+/********Header********/
+header {
+background: var(--section);
+font-family: var(--ff);
+}
+h1 {
+text-align: center;
+font-size: 2em;
+padding: 20px 20px 5px 20px;
+}
+h2 {
+text-align: center;
+font-size: 1.5em;
+padding-bottom: 10px;
+}
+h3 {
+text-align: center;
+font-size: 1.8em;
+margin-top: 50px;
+}
+/************Main************/
+article {
+margin: 10px;
+}
+section {
+/*border: 2px solid black;*/
+margin: 20px;
+background: var(--section)
+}
+hr {
+width: 90%;
+margin: 10px auto;
+border-color: #000;
+}
+.elemento {
+padding: 15px 30px;
+font-size: 1.1em;
+}
+.enlace, a {
+margin: 5px 0;
+font-size: 1.2em;
+color: #000000;
+}
+.enlace a:hover {
+font-weight: bold;
+}
+
+/************Footer*************/
+footer {
+position: relative;
+background: var(--section);
+height: 100px;
+width: 100%;
+margin: 0 auto;
+}
+footer p {
+position: absolute;
+bottom: 40px;
+left: 30px;
+font-weight: bold;
+font-family: "Roboto momo", sans-serif, monospace;
+}
+.fa-facebook {
+color: #0f50a5;
+font-size: 2em;
+text-decoration: none;
+position: absolute;
+bottom: 32px;
+left: 280px;
+}
+.fa-arrow-up {
+color: #000;
+font-size: 2em;
+text-decoration: none;
+position: absolute;
+right: 30px;
+bottom: 32px;
+}
+
+/***********RWD*********/
+@media only screen and (min-width:1024px) {
+.sec {
+  width: 80%;
+  margin: 0 auto;
+}
+}
+@media only screen and (min-width:1220px) {
+.sec {
+  width: 70%;
+  margin: 0 auto;
+}
+}
+@media only screen and (min-width:1500px) {
+.sec {
+  width: 60%;
+  margin: 0 auto;
+}
+}
