@@ -64,11 +64,14 @@ font-weight: bold;
 
 /************Footer*************/
 footer {
-position: relative;
 background: var(--section);
 height: 100px;
 width: 100%;
-margin: 0 auto;
+}
+.recipiente {
+  position: relative;
+  height: 100px;
+  margin: 0 auto;
 }
 footer p {
 position: absolute;
@@ -100,16 +103,25 @@ bottom: 32px;
   width: 80%;
   margin: 0 auto;
 }
+.recipiente {
+  width: 80%;
+}
 }
 @media only screen and (min-width:1220px) {
 .sec {
   width: 70%;
   margin: 0 auto;
 }
+.recipiente {
+  width: 70%;
+}
 }
 @media only screen and (min-width:1500px) {
 .sec {
   width: 60%;
   margin: 0 auto;
+}
+.recipiente {
+  width: 60%;
 }
 }
