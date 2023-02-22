@@ -7,17 +7,20 @@
 --section: rgb(164, 165, 165);
 --body: rgb(124, 124, 124);
 --ff: 'Roboto mono', sans-serif, monospace;
+--section-darkmode: rgb(7, 26, 32);
+--body-darkmode: rgb(29, 40, 43);
 }
 
 /*********Body*********/
 body {
-background: var(--body);
+background: var(--body-darkmode);
 font-family: var(--ff);
+color: rgb(217, 217, 242);
 }
 
 /********Header********/
 header {
-background: var(--section);
+background: var(--section-darkmode);
 font-family: var(--ff);
 }
 h1 {
@@ -42,7 +45,7 @@ margin: 10px;
 section {
 /*border: 2px solid black;*/
 margin: 20px;
-background: var(--section)
+background: var(--section-darkmode)
 }
 hr {
 width: 90%;
@@ -64,7 +67,7 @@ font-weight: bold;
 
 /************Footer*************/
 footer {
-background: var(--section);
+background: var(--section-darkmode);
 height: 100px;
 width: 100%;
 }
